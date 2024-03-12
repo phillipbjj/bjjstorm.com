@@ -5,7 +5,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>BJJ Storm</title>
+        <title>BJJ STORM: THE BJJ MAP</title>
       </head>
       <body>{children}</body>
     </html>
