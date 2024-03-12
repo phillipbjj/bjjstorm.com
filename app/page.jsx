@@ -1,5 +1,5 @@
 // app/page.jsx
-import styles from './page.module.css';
+import styles from './globals.css';
 
 export default function Home() {
   return (
