@@ -20,3 +20,12 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+.topRightLinks {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
