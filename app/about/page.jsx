@@ -23,14 +23,6 @@ export default function Home() {
       <a>BJJ AI MODEL</a>
       </h2>
     </div>
-    <footer>
-    <nav>
-      <ul>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </nav>
-    <p>&copy; 2024 BJJSTORM. Suck it buster.</p>
-  </footer>
   </body>
   );
 }
