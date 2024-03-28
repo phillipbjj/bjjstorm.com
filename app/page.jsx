@@ -8,13 +8,7 @@ export default function Home() {
   <body>
     <div className="container">
         <h1>BJJ Storm</h1>
-        <Image 
-          className="image"
-          src="/monsterSleeping.jpg"
-          alt="Monster sleeping"
-          width={500}
-          height={300}
-        />
+        {/* <Image className="image" src="/monsterSleeping.jpg" alt="Monster sleeping" width={500} height={300} /> */}
     </div>
   </body>
   );

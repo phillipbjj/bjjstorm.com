@@ -8,7 +8,8 @@ export default function RootLayout({ children }) {
         <title>BJJ STORM: THE BJJ MAP</title>
       </head>
       <body>
-        {children}
+        <h1>BJJ Storm</h1>
+        {/*children*/}
         <div className="topRightLinks">
           <h2>
             <a>GYMS NEAR YOU!</a>
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
               <li><a href="/support">Support</a></li>
             </ul>
           </nav>
-          <p> 2024 BJJSTORM. Suck it buster.</p>
+          <p>2024 BJJSTORM. Suck it buster.</p>
         </footer>
       </body>
     </html>
