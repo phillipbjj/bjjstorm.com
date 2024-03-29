@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
         <footer>
           <nav>
             <ul>
-              <li><Link href="https://www.bjjstorm.com/about">About</Link></li>
-              <li><Link href="https://bjjstorm.com/nearbygyms">Gyms Nearby</Link></li>
-              <li><Link href="https://bjjstorm.com/support">Support</Link></li>
+              <li><Link href="/about">About</Link></li>
+              <li><Link href="/nearbygyms">Gyms Nearby</Link></li>
+              <li><Link href="/support">Support</Link></li>
             </ul>
           </nav>
           <p>2024 BJJSTORM. Suck it buster.</p>
