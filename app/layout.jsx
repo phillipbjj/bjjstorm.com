@@ -18,7 +18,13 @@ export default function RootLayout({ children }) {
             <a><Link href="/BJJAIModel">BJJ AI MODEL</Link></a>
           </h2>
         </div>
+        <h3>
+          <a><Link href="/submissions">Submissions</Link></a>
+          <a><Link href="/guards">Guards</Link></a>
+          <a><Link href="/takedowns">Takedowns</Link></a>
+        </h3>
         <footer>
+        <p>2024 BJJSTORM. Suck it buster.</p>
           <nav>
             <ul>
               <li><Link href="/about">About</Link></li>
@@ -26,7 +32,6 @@ export default function RootLayout({ children }) {
               <li><Link href="/support">Support</Link></li>
             </ul>
           </nav>
-          <p>2024 BJJSTORM. Suck it buster.</p>
         </footer>
       </body>
     </html>
