@@ -1,5 +1,6 @@
 // app/layout.jsx
 import './globals.css';
+import Link from 'next/link';
 
 export default function RootLayout({ children }) {
   return (
@@ -20,9 +21,9 @@ export default function RootLayout({ children }) {
         <footer>
           <nav>
             <ul>
-              <li><a href="https://www.bjjstorm.com/about">About</a></li>
-              <li><a href="https://bjjstorm.com/nearbygyms">Gyms Nearby</a></li>
-              <li><a href="https://bjjstorm.com/support">Support</a></li>
+              <li><Link href="https://www.bjjstorm.com/about">About</Link></li>
+              <li><Link href="https://bjjstorm.com/nearbygyms">Gyms Nearby</Link></li>
+              <li><Link href="https://bjjstorm.com/support">Support</Link></li>
             </ul>
           </nav>
           <p>2024 BJJSTORM. Suck it buster.</p>
