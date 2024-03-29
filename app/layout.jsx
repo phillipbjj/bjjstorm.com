@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {children}
-        <h1>BJJ Storm</h1>
+        <h1><Link href="/">BJJ Storm</Link></h1>
         <div className="topRightLinks">
           <h2>
             <a><Link href="/nearbygyms">GYMS NEAR YOU!</Link></a>
@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
           </h2>
         </div>
         <h3>
-          <a><Link href="/submissions">Submissions</Link></a>
-          <a><Link href="/guards">Guards</Link></a>
-          <a><Link href="/takedowns">Takedowns</Link></a>
+          <li><Link href="/submissions">Submissions</Link></li>
+          <li><Link href="/guards">Guards</Link></li>
+          <li><Link href="/takedowns">Takedowns</Link></li>
         </h3>
         <footer>
         <p>2024 BJJSTORM. Suck it buster.</p>
