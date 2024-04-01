@@ -21,13 +21,15 @@ export default function RootLayout({ children }) {
             </ul>
           </h2>
         </div>
-        <h3>
-          <ul>
-            <li><Link href="/submissions">Submissions</Link></li>
-            <li><Link href="/guards">Guards</Link></li>
-            <li><Link href="/takedowns">Takedowns</Link></li>
-          </ul>
-        </h3>
+        <div className = "topLeftLinks">
+          <h3>
+            <ul>
+              <li><Link href="/submissions">Submissions</Link></li>
+              <li><Link href="/guards">Guards</Link></li>
+              <li><Link href="/takedowns">Takedowns</Link></li>
+            </ul>
+          </h3>
+        </div>
         <footer>
           <p>2024 BJJSTORM. Suck it buster.</p>
           <nav>
