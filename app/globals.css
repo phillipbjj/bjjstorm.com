@@ -42,9 +42,17 @@ h1 {
   font-size: small;
 }
 
-h2 a {
-  margin-right: 20px;
+.topRightLinks ul {
+  list-style: none; /* Remove default list bullets */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Align list items horizontally */
 }
+
+.topRightLinks ul li {
+  margin-right: 20px; /* Add some space between list items */
+}
+
+
 
 footer {
   position: fixed;
@@ -72,4 +80,8 @@ h3 {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+}
+
+h3 ul li {
+  margin-top: 20px;
 }

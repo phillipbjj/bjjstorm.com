@@ -7,7 +7,7 @@ export default function Home() {
   return (
   <Layout>
     <div className="container">
-        { <Image className="image" src="/monsterSleeping.jpg" alt="Monster sleeping" width={500} height={300} /> }
+        { <Image className="image" src="/monsterUpTop.jpg" alt="MonsterImposingLook" width={500} height={300} /> }
     </div>
   </Layout>
   );

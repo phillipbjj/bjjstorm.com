@@ -14,18 +14,22 @@ export default function RootLayout({ children }) {
         <h1><Link href="/">BJJ Storm</Link></h1>
         <div className="topRightLinks">
           <h2>
-            <a><Link href="/nearbygyms">GYMS NEAR YOU!</Link></a>
-            <a><Link href="/shop">SHOP</Link></a>
-            <a><Link href="/BJJAIModel">BJJ AI MODEL</Link></a>
+            <ul>
+              <li><Link href="/nearbygyms">GYMS NEAR YOU!</Link></li>
+              <li><Link href="/shop">SHOP</Link></li>
+              <li><Link href="/BJJAIModel">BJJ AI MODEL</Link></li>
+            </ul>
           </h2>
         </div>
         <h3>
-          <li><Link href="/submissions">Submissions</Link></li>
-          <li><Link href="/guards">Guards</Link></li>
-          <li><Link href="/takedowns">Takedowns</Link></li>
+          <ul>
+            <li><Link href="/submissions">Submissions</Link></li>
+            <li><Link href="/guards">Guards</Link></li>
+            <li><Link href="/takedowns">Takedowns</Link></li>
+          </ul>
         </h3>
         <footer>
-        <p>2024 BJJSTORM. Suck it buster.</p>
+          <p>2024 BJJSTORM. Suck it buster.</p>
           <nav>
             <ul>
               <li><Link href="/about">About</Link></li>
