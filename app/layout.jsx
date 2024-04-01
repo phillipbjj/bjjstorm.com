@@ -1,13 +1,14 @@
 // app/layout.jsx
 import './/globals.css';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <title>BJJ STORM: THE BJJ MAP</title>
-      </head>
+      </Head>
       <body>
         {children}
         <h1><Link href="/">BJJ Storm</Link></h1>
