@@ -9,22 +9,13 @@ export default function RootLayout({ children }) {
       <Head>
         <title>BJJ STORM: THE BJJ MAP</title>
       </Head>
+      <h1><Link href="/">BJJ Storm</Link></h1>
       <body>
         {children}
-        <h1><Link href="/">BJJ Storm</Link></h1>
-        <div className="topRightLinks">
+        <div>
           <h2>
             <ul>
-              <li><Link href="/nearbygyms">GYMS NEAR YOU!</Link></li>
-              <li><Link href="/shop">SHOP</Link></li>
-              <li><Link href="/BJJAIModel">BJJ AI MODEL</Link></li>
-            </ul>
-          </h2>
-        </div>
-        <div className = "topLeftLinks">
-          <h3>
-            <ul>
-              <li><Link href="/login">LOGIN/SIGNUP</Link></li>
+              <li><Link href="/login">LOGIN / SIGNUP</Link></li>
               <li><Link href="/nearbygyms">GYMS NEAR YOU!</Link></li>
               <li><Link href="/shop">SHOP</Link></li>
               <li><Link href="/BJJAIModel">BJJ AI MODEL</Link></li>
@@ -32,7 +23,7 @@ export default function RootLayout({ children }) {
               <li><Link href="/guards">Guards</Link></li>
               <li><Link href="/takedowns">Takedowns</Link></li>
             </ul>
-          </h3>
+          </h2>
         </div>
         <footer>
           <p>2024 BJJSTORM. Suck it buster.</p>

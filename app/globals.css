@@ -39,34 +39,6 @@ h1 a {
   margin: 0 auto;
 }
 
-.topRightLinks {
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-size: small;
-}
-
-.topRightLinks ul {
-  list-style: none; /* Remove default list bullets */
-  padding: 0; /* Remove default padding */
-  display: flex; /* Align list items horizontally */
-}
-
-.topRightLinks ul li {
-  margin-right: 20px; /* Add some space between list items */
-}
-
-.leftSideLinks {
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: rgb(98, 141, 58);
-  text-decoration: none;
-  font-size: small;
-}
-
 footer {
   position: fixed;
   right: 0;
@@ -87,14 +59,14 @@ footer ul li {
   margin: 0 10px;
 }
 
-h3 {
+h2 {
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
 }
 
-h3 ul li {
+h2 ul li {
   margin-top: 20px;
 }
 
