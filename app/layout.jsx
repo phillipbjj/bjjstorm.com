@@ -11,11 +11,11 @@ export default function RootLayout({ children }) {
       </Head>
       <body>
         {children}
-        <h1><Link href="/">BJJ Storm</Link></h1>
+        <h1><Link href="/"><a>BJJ Storm</a></Link></h1>
         <div className="topRightLinks">
           <h2>
             <ul>
-              <li><Link href="/nearbygyms">GYMS NEAR YOU!</Link></li>
+              <li><Link href="/nearbygyms"><a>GYMS NEAR YOU!</a></Link></li>
               <li><Link href="/shop">SHOP</Link></li>
               <li><Link href="/BJJAIModel">BJJ AI MODEL</Link></li>
             </ul>

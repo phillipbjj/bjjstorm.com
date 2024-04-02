@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #89adcf; 
+  background-color: #b34ec7; 
 }
 
 .container {
@@ -17,12 +17,17 @@ h1 {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  padding: 20px;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+}
+
+h1 a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .image {
@@ -63,23 +68,22 @@ h1 {
 
 footer {
   position: fixed;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: flex-end;
   flex-direction: row;
 }
 
 footer ul {
   display: flex;
-  justify-content: center;
+  list-style: none;
   padding: 0;
 }
 
 footer ul li {
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 h3 {
@@ -91,4 +95,9 @@ h3 {
 
 h3 ul li {
   margin-top: 20px;
+}
+
+li a {
+  color: inherit; /* Make the link color the same as the surrounding text */
+  text-decoration: none; /* Remove the underline */
 }
