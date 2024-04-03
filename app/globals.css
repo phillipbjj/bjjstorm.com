@@ -3,12 +3,15 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   background-color: #b34ec7; 
+  height: 100vh;
+  margin: 0;  /* This removes the default margin */
 }
 
 .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .image {
